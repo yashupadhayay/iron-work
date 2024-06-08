@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #010101;
 }
 
 header {
-    background-color: #333;
+    background-color: #f90202;
     color: white;
     padding: 1em 0;
     position: relative;
@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 1em;
 }
@@ -62,11 +62,12 @@ nav ul li a:hover {
     position: absolute;
     left: 0.5em;
     top: 0.5em;
+   
 }
 
 main {
     padding: 2em;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -138,7 +139,7 @@ input, textarea {
 
 button {
     padding: 0.5em 1em;
-    background-color: #333;
+    background-color: #f90202;
     color: white;
     border: none;
     border-radius: 5px;
@@ -148,11 +149,11 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #000000;
 }
 
 footer {
-    background-color: #333;
+    background-color: #f90202;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -173,8 +174,9 @@ footer {
         top: 60px;
         left: 0;
         width: 100%;
-        text-align: center;
-        padding: 0;
+        text-align: left;
+        padding: 30;
+        text-decoration: none;
     }
 
     nav ul.active {
@@ -188,6 +190,7 @@ footer {
     nav ul li a {
         padding: 1em;
         border-top: 1px solid #444;
+        text-decoration: none;
     }
 
     header h1 {
